@@ -7,7 +7,7 @@ int main()
     int guess = rand()%100+1;
     printf("Welcome in the guess the number game\n\n");
     printf("You have only 5 attempts to find the guessing number\n");
-    printf("Enter your guessing number: ");
+    printf("Enter your guessing number from 1 to 100: ");
 
     while(n<5){
         scanf("%d", &n);
